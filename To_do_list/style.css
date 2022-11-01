@@ -1,0 +1,82 @@
+body{
+    font-family: "Ubuntu", Ariel, sans-serif;
+    min-height: 100vh;
+}
+
+.header{
+    width: 100%;
+    height: 10vh;
+    min-height: 50px;
+    display: flex;
+    padding: 20px 0 20px;
+    background: rgba(0,0,0,.5);
+}
+
+.wrap{
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.row{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text{
+    color: azure;
+}
+.button{
+    padding: 5px 8px;
+    background: rgba(144, 140, 140, 0.4);
+    color: azure;
+    border-radius: 5px;
+}
+
+.bg{
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+.todo{
+    display: flex;
+    padding: 15px;
+}
+
+.columnName{
+    color: azure;
+    font-size: 32px;
+    padding: 0 20px;
+}
+
+.bodyDiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.clean{
+    display: flex;
+    margin-top: auto;
+}
+
+.description{
+    color: azure;
+    font-size: 20px;
+}
+
+.inProcess, .done{
+    display: flex;
+    flex-direction: column;
+    background: rgba(0,0,0,.3);
+    border: aliceblue solid 1px;
+    border-radius: 15px;
+    min-height: 50vh;
+    min-width: 200px;
+    width: 35%;
+    margin: 15px 0 30px;
+}
+

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ru">
+<link rel="stylesheet" href="font/ubuntu.css">
+<link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Todolist</title>
+</head>
+<body>
+<div class="bg" id="bg">
+    <header class="header">
+        <div class="wrap row">
+            <div class="text">
+                <h1 class="h1">Что сделать?</h1>
+                <h2 class="h2">Давай, запланируй свои амбициозные планы</h2>
+            </div>
+            <div class="changeButton">
+                <button class="button" id="bgchange">Поменяем фон?</button>
+            </div>
+
+        </div>
+    </header>
+    <main class="main" id="main">
+        <div class="wrap">
+            <div class="todo">
+                <span class="columnName">To do</span>
+                <input id="toDo" class="toDoInput" placeholder="Пиши тут">
+                <button id="plane" class="button">Plane it!</button>
+            </div>
+            <div class="bodyDiv">
+                <div class="inProcess">
+                    <span class="columnName">In process</span>
+                    <ul id="inProcUl"></ul>
+                    <button class="button clean" id="inProcClean">Очистить</button>
+                </div>
+                <div class="done">
+                    <span class="columnName">Done</span>
+                    <ul id="doneUl"></ul>
+                    <button class="button clean" id="doneClean">Очистить</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
